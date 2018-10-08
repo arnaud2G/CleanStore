@@ -37,8 +37,6 @@
 		34DE50B1215E5CBD00E652A5 /* ListOrdersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50A8215E5CBD00E652A5 /* ListOrdersModels.swift */; };
 		34DE50B3215E5CBD00E652A5 /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50A9215E5CBD00E652A5 /* ListOrdersViewController.swift */; };
 		34DE50B5215E5CBD00E652A5 /* ListOrdersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50AA215E5CBD00E652A5 /* ListOrdersInteractor.swift */; };
-		3BC321D1D34BE43333E4716E /* Pods_CleanStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A05646EB3DE382799126D63 /* Pods_CleanStoreTests.framework */; };
-		E12707CE38C28ACF3D9109EF /* Pods_CleanStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34A2DBAEF57963B2A23DD43 /* Pods_CleanStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,12 +85,6 @@
 		34DE50A8215E5CBD00E652A5 /* ListOrdersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersModels.swift; sourceTree = "<group>"; };
 		34DE50A9215E5CBD00E652A5 /* ListOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
 		34DE50AA215E5CBD00E652A5 /* ListOrdersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersInteractor.swift; sourceTree = "<group>"; };
-		36C46AC097723F449E6EB10E /* Pods-CleanStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
-		570E0D890993B30ECEA9A48C /* Pods-CleanStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		5A05646EB3DE382799126D63 /* Pods_CleanStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		961935D560A8E660C509F298 /* Pods-CleanStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore.release.xcconfig"; sourceTree = "<group>"; };
-		9FF51E5026FAB72107FE4370 /* Pods-CleanStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore.debug.xcconfig"; sourceTree = "<group>"; };
-		F34A2DBAEF57963B2A23DD43 /* Pods_CleanStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E12707CE38C28ACF3D9109EF /* Pods_CleanStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC321D1D34BE43333E4716E /* Pods_CleanStoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +239,6 @@
 		77067E11AFBEE65E3C55791D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F34A2DBAEF57963B2A23DD43 /* Pods_CleanStore.framework */,
-				5A05646EB3DE382799126D63 /* Pods_CleanStoreTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -258,10 +246,6 @@
 		ACE7B2B3451E446DE20464F9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9FF51E5026FAB72107FE4370 /* Pods-CleanStore.debug.xcconfig */,
-				961935D560A8E660C509F298 /* Pods-CleanStore.release.xcconfig */,
-				36C46AC097723F449E6EB10E /* Pods-CleanStoreTests.debug.xcconfig */,
-				570E0D890993B30ECEA9A48C /* Pods-CleanStoreTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -273,12 +257,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 341A2AAA215D267B0029DDA8 /* Build configuration list for PBXNativeTarget "CleanStore" */;
 			buildPhases = (
-				02E3F56FCE054D8CA3EFE3DF /* [CP] Check Pods Manifest.lock */,
 				341A2A89215D267A0029DDA8 /* Sources */,
 				341A2A8A215D267A0029DDA8 /* Frameworks */,
 				341A2A8B215D267A0029DDA8 /* Resources */,
-				623D3394CC0CD4ABFB23CF8B /* [CP] Embed Pods Frameworks */,
-				51D9F421099B4A05E80B7F11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,12 +274,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 341A2AAD215D267B0029DDA8 /* Build configuration list for PBXNativeTarget "CleanStoreTests" */;
 			buildPhases = (
-				751755BCAFA774AC0339E360 /* [CP] Check Pods Manifest.lock */,
 				341A2A9D215D267B0029DDA8 /* Sources */,
 				341A2A9E215D267B0029DDA8 /* Frameworks */,
 				341A2A9F215D267B0029DDA8 /* Resources */,
-				3312F9CD569D7C048811EF15 /* [CP] Embed Pods Frameworks */,
-				941C015A7D2AB851F3D1EDCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,111 +345,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		02E3F56FCE054D8CA3EFE3DF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CleanStore-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3312F9CD569D7C048811EF15 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Spry/Spry.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spry.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		51D9F421099B4A05E80B7F11 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		623D3394CC0CD4ABFB23CF8B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Spry/Spry.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spry.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		751755BCAFA774AC0339E360 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CleanStoreTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		941C015A7D2AB851F3D1EDCC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		341A2A89215D267A0029DDA8 /* Sources */ = {
@@ -663,9 +536,9 @@
 		};
 		341A2AAB215D267B0029DDA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FF51E5026FAB72107FE4370 /* Pods-CleanStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76WR8M699X;
 				INFOPLIST_FILE = CleanStore/Info.plist;
@@ -675,6 +548,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tagattitude.CleanStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -682,9 +556,9 @@
 		};
 		341A2AAC215D267B0029DDA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 961935D560A8E660C509F298 /* Pods-CleanStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76WR8M699X;
 				INFOPLIST_FILE = CleanStore/Info.plist;
@@ -694,6 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tagattitude.CleanStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -701,10 +576,10 @@
 		};
 		341A2AAE215D267B0029DDA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36C46AC097723F449E6EB10E /* Pods-CleanStoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76WR8M699X;
 				INFOPLIST_FILE = CleanStoreTests/Info.plist;
@@ -715,6 +590,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tagattitude.CleanStoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanStore.app/CleanStore";
@@ -723,10 +599,10 @@
 		};
 		341A2AAF215D267B0029DDA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570E0D890993B30ECEA9A48C /* Pods-CleanStoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76WR8M699X;
 				INFOPLIST_FILE = CleanStoreTests/Info.plist;
@@ -737,6 +613,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tagattitude.CleanStoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanStore.app/CleanStore";
@@ -753,7 +630,7 @@
 				341A2AA9215D267B0029DDA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		341A2AAA215D267B0029DDA8 /* Build configuration list for PBXNativeTarget "CleanStore" */ = {
 			isa = XCConfigurationList;
@@ -762,7 +639,7 @@
 				341A2AAC215D267B0029DDA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		341A2AAD215D267B0029DDA8 /* Build configuration list for PBXNativeTarget "CleanStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -771,7 +648,7 @@
 				341A2AAF215D267B0029DDA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
