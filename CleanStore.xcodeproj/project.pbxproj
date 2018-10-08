@@ -12,7 +12,33 @@
 		341A2A96215D267A0029DDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341A2A94215D267A0029DDA8 /* Main.storyboard */; };
 		341A2A98215D267B0029DDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341A2A97215D267B0029DDA8 /* Assets.xcassets */; };
 		341A2A9B215D267B0029DDA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341A2A99215D267B0029DDA8 /* LaunchScreen.storyboard */; };
-		341A2AA6215D267B0029DDA8 /* CleanStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A2AA5215D267B0029DDA8 /* CleanStoreTests.swift */; };
+		341A2AB9215D2E3E0029DDA8 /* CreateOrderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A2AB3215D2E3E0029DDA8 /* CreateOrderPresenter.swift */; };
+		341A2ABB215D2E3E0029DDA8 /* CreateOrderWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A2AB4215D2E3E0029DDA8 /* CreateOrderWorker.swift */; };
+		341A2ABD215D2E3E0029DDA8 /* CreateOrderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A2AB5215D2E3E0029DDA8 /* CreateOrderRouter.swift */; };
+		341A2ABF215D2E3E0029DDA8 /* CreateOrderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A2AB6215D2E3E0029DDA8 /* CreateOrderModels.swift */; };
+		341A2AC1215D2E3E0029DDA8 /* CreateOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A2AB7215D2E3E0029DDA8 /* CreateOrderViewController.swift */; };
+		341A2AC3215D2E3E0029DDA8 /* CreateOrderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341A2AB8215D2E3E0029DDA8 /* CreateOrderInteractor.swift */; };
+		345F8CC1215E6A2E00F2BA0A /* ListOrdersViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CBD215E6A2E00F2BA0A /* ListOrdersViewControllerTests.swift */; };
+		345F8CC5215E6E6D00F2BA0A /* ListOrdersInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CBE215E6A2E00F2BA0A /* ListOrdersInteractorTests.swift */; };
+		345F8CC8215E723400F2BA0A /* OrderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CC7215E723400F2BA0A /* OrderModels.swift */; };
+		345F8CCA215E760200F2BA0A /* OrdersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CC9215E760200F2BA0A /* OrdersWorker.swift */; };
+		345F8CCC215E7D0200F2BA0A /* OrdersMemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CCB215E7D0200F2BA0A /* OrdersMemStore.swift */; };
+		345F8CCE215E7D1A00F2BA0A /* OrdersCoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CCD215E7D1A00F2BA0A /* OrdersCoreDataStore.swift */; };
+		345F8CD0215E7D2B00F2BA0A /* OrdersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CCF215E7D2B00F2BA0A /* OrdersAPI.swift */; };
+		345F8CD1215E7F9D00F2BA0A /* ListOrdersWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CBF215E6A2E00F2BA0A /* ListOrdersWorkerTests.swift */; };
+		345F8CD9215E800500F2BA0A /* OrderWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CD5215E800500F2BA0A /* OrderWorkerTests.swift */; };
+		3485C72F21620718007567D4 /* ListOrdersPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F8CC0215E6A2E00F2BA0A /* ListOrdersPresenterTests.swift */; };
+		3485C73721626C3D007567D4 /* CreateOrderViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485C73321626C3D007567D4 /* CreateOrderViewControllerTests.swift */; };
+		3485C73B21627163007567D4 /* CreateOrderInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485C73421626C3D007567D4 /* CreateOrderInteractorTests.swift */; };
+		3485C73C21627A5F007567D4 /* CreateOrderPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3485C73621626C3D007567D4 /* CreateOrderPresenterTests.swift */; };
+		34DE50AB215E5CBD00E652A5 /* ListOrdersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50A5215E5CBD00E652A5 /* ListOrdersPresenter.swift */; };
+		34DE50AD215E5CBD00E652A5 /* ListOrdersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50A6215E5CBD00E652A5 /* ListOrdersWorker.swift */; };
+		34DE50AF215E5CBD00E652A5 /* ListOrdersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50A7215E5CBD00E652A5 /* ListOrdersRouter.swift */; };
+		34DE50B1215E5CBD00E652A5 /* ListOrdersModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50A8215E5CBD00E652A5 /* ListOrdersModels.swift */; };
+		34DE50B3215E5CBD00E652A5 /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50A9215E5CBD00E652A5 /* ListOrdersViewController.swift */; };
+		34DE50B5215E5CBD00E652A5 /* ListOrdersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE50AA215E5CBD00E652A5 /* ListOrdersInteractor.swift */; };
+		3BC321D1D34BE43333E4716E /* Pods_CleanStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A05646EB3DE382799126D63 /* Pods_CleanStoreTests.framework */; };
+		E12707CE38C28ACF3D9109EF /* Pods_CleanStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34A2DBAEF57963B2A23DD43 /* Pods_CleanStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +60,39 @@
 		341A2A9A215D267B0029DDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		341A2A9C215D267B0029DDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		341A2AA1215D267B0029DDA8 /* CleanStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		341A2AA5215D267B0029DDA8 /* CleanStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanStoreTests.swift; sourceTree = "<group>"; };
 		341A2AA7215D267B0029DDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341A2AB3215D2E3E0029DDA8 /* CreateOrderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderPresenter.swift; sourceTree = "<group>"; };
+		341A2AB4215D2E3E0029DDA8 /* CreateOrderWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderWorker.swift; sourceTree = "<group>"; };
+		341A2AB5215D2E3E0029DDA8 /* CreateOrderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderRouter.swift; sourceTree = "<group>"; };
+		341A2AB6215D2E3E0029DDA8 /* CreateOrderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderModels.swift; sourceTree = "<group>"; };
+		341A2AB7215D2E3E0029DDA8 /* CreateOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderViewController.swift; sourceTree = "<group>"; };
+		341A2AB8215D2E3E0029DDA8 /* CreateOrderInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderInteractor.swift; sourceTree = "<group>"; };
+		345F8CBD215E6A2E00F2BA0A /* ListOrdersViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewControllerTests.swift; sourceTree = "<group>"; };
+		345F8CBE215E6A2E00F2BA0A /* ListOrdersInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersInteractorTests.swift; sourceTree = "<group>"; };
+		345F8CBF215E6A2E00F2BA0A /* ListOrdersWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersWorkerTests.swift; sourceTree = "<group>"; };
+		345F8CC0215E6A2E00F2BA0A /* ListOrdersPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersPresenterTests.swift; sourceTree = "<group>"; };
+		345F8CC7215E723400F2BA0A /* OrderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModels.swift; sourceTree = "<group>"; };
+		345F8CC9215E760200F2BA0A /* OrdersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersWorker.swift; sourceTree = "<group>"; };
+		345F8CCB215E7D0200F2BA0A /* OrdersMemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersMemStore.swift; sourceTree = "<group>"; };
+		345F8CCD215E7D1A00F2BA0A /* OrdersCoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersCoreDataStore.swift; sourceTree = "<group>"; };
+		345F8CCF215E7D2B00F2BA0A /* OrdersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersAPI.swift; sourceTree = "<group>"; };
+		345F8CD5215E800500F2BA0A /* OrderWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderWorkerTests.swift; sourceTree = "<group>"; };
+		3485C73321626C3D007567D4 /* CreateOrderViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderViewControllerTests.swift; sourceTree = "<group>"; };
+		3485C73421626C3D007567D4 /* CreateOrderInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderInteractorTests.swift; sourceTree = "<group>"; };
+		3485C73521626C3D007567D4 /* CreateOrderWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderWorkerTests.swift; sourceTree = "<group>"; };
+		3485C73621626C3D007567D4 /* CreateOrderPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderPresenterTests.swift; sourceTree = "<group>"; };
+		34DE50A5215E5CBD00E652A5 /* ListOrdersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersPresenter.swift; sourceTree = "<group>"; };
+		34DE50A6215E5CBD00E652A5 /* ListOrdersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersWorker.swift; sourceTree = "<group>"; };
+		34DE50A7215E5CBD00E652A5 /* ListOrdersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersRouter.swift; sourceTree = "<group>"; };
+		34DE50A8215E5CBD00E652A5 /* ListOrdersModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersModels.swift; sourceTree = "<group>"; };
+		34DE50A9215E5CBD00E652A5 /* ListOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
+		34DE50AA215E5CBD00E652A5 /* ListOrdersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersInteractor.swift; sourceTree = "<group>"; };
+		36C46AC097723F449E6EB10E /* Pods-CleanStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		570E0D890993B30ECEA9A48C /* Pods-CleanStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A05646EB3DE382799126D63 /* Pods_CleanStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961935D560A8E660C509F298 /* Pods-CleanStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore.release.xcconfig"; sourceTree = "<group>"; };
+		9FF51E5026FAB72107FE4370 /* Pods-CleanStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore.debug.xcconfig"; sourceTree = "<group>"; };
+		F34A2DBAEF57963B2A23DD43 /* Pods_CleanStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12707CE38C28ACF3D9109EF /* Pods_CleanStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC321D1D34BE43333E4716E /* Pods_CleanStoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +121,8 @@
 				341A2A8F215D267A0029DDA8 /* CleanStore */,
 				341A2AA4215D267B0029DDA8 /* CleanStoreTests */,
 				341A2A8E215D267A0029DDA8 /* Products */,
+				ACE7B2B3451E446DE20464F9 /* Pods */,
+				77067E11AFBEE65E3C55791D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +138,7 @@
 		341A2A8F215D267A0029DDA8 /* CleanStore */ = {
 			isa = PBXGroup;
 			children = (
+				341A2AB0215D269F0029DDA8 /* Scenes */,
 				341A2A90215D267A0029DDA8 /* AppDelegate.swift */,
 				341A2A92215D267A0029DDA8 /* ViewController.swift */,
 				341A2A94215D267A0029DDA8 /* Main.storyboard */,
@@ -90,10 +152,118 @@
 		341A2AA4215D267B0029DDA8 /* CleanStoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				341A2AA5215D267B0029DDA8 /* CleanStoreTests.swift */,
+				34DE50B8215E5F9500E652A5 /* Scenes */,
 				341A2AA7215D267B0029DDA8 /* Info.plist */,
 			);
 			path = CleanStoreTests;
+			sourceTree = "<group>";
+		};
+		341A2AB0215D269F0029DDA8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				345F8CC6215E71D700F2BA0A /* CommonOrder */,
+				34DE50A4215E5C9800E652A5 /* ListOrders */,
+				341A2AB1215D26B40029DDA8 /* CreateOrder */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		341A2AB1215D26B40029DDA8 /* CreateOrder */ = {
+			isa = PBXGroup;
+			children = (
+				341A2AB4215D2E3E0029DDA8 /* CreateOrderWorker.swift */,
+				341A2AB5215D2E3E0029DDA8 /* CreateOrderRouter.swift */,
+				341A2AB6215D2E3E0029DDA8 /* CreateOrderModels.swift */,
+				341A2AB7215D2E3E0029DDA8 /* CreateOrderViewController.swift */,
+				341A2AB8215D2E3E0029DDA8 /* CreateOrderInteractor.swift */,
+				341A2AB3215D2E3E0029DDA8 /* CreateOrderPresenter.swift */,
+			);
+			path = CreateOrder;
+			sourceTree = "<group>";
+		};
+		345F8CC6215E71D700F2BA0A /* CommonOrder */ = {
+			isa = PBXGroup;
+			children = (
+				345F8CC7215E723400F2BA0A /* OrderModels.swift */,
+				345F8CC9215E760200F2BA0A /* OrdersWorker.swift */,
+				345F8CCB215E7D0200F2BA0A /* OrdersMemStore.swift */,
+				345F8CCD215E7D1A00F2BA0A /* OrdersCoreDataStore.swift */,
+				345F8CCF215E7D2B00F2BA0A /* OrdersAPI.swift */,
+			);
+			path = CommonOrder;
+			sourceTree = "<group>";
+		};
+		345F8CD2215E7FDA00F2BA0A /* CommonOrder */ = {
+			isa = PBXGroup;
+			children = (
+				345F8CD5215E800500F2BA0A /* OrderWorkerTests.swift */,
+			);
+			path = CommonOrder;
+			sourceTree = "<group>";
+		};
+		3485C73221626C21007567D4 /* CreateOrder */ = {
+			isa = PBXGroup;
+			children = (
+				3485C73321626C3D007567D4 /* CreateOrderViewControllerTests.swift */,
+				3485C73421626C3D007567D4 /* CreateOrderInteractorTests.swift */,
+				3485C73521626C3D007567D4 /* CreateOrderWorkerTests.swift */,
+				3485C73621626C3D007567D4 /* CreateOrderPresenterTests.swift */,
+			);
+			path = CreateOrder;
+			sourceTree = "<group>";
+		};
+		34DE50A4215E5C9800E652A5 /* ListOrders */ = {
+			isa = PBXGroup;
+			children = (
+				34DE50A6215E5CBD00E652A5 /* ListOrdersWorker.swift */,
+				34DE50A7215E5CBD00E652A5 /* ListOrdersRouter.swift */,
+				34DE50A8215E5CBD00E652A5 /* ListOrdersModels.swift */,
+				34DE50A9215E5CBD00E652A5 /* ListOrdersViewController.swift */,
+				34DE50AA215E5CBD00E652A5 /* ListOrdersInteractor.swift */,
+				34DE50A5215E5CBD00E652A5 /* ListOrdersPresenter.swift */,
+			);
+			path = ListOrders;
+			sourceTree = "<group>";
+		};
+		34DE50B8215E5F9500E652A5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3485C73221626C21007567D4 /* CreateOrder */,
+				345F8CD2215E7FDA00F2BA0A /* CommonOrder */,
+				34DE50B9215E5F9F00E652A5 /* ListOrders */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		34DE50B9215E5F9F00E652A5 /* ListOrders */ = {
+			isa = PBXGroup;
+			children = (
+				345F8CBD215E6A2E00F2BA0A /* ListOrdersViewControllerTests.swift */,
+				345F8CBE215E6A2E00F2BA0A /* ListOrdersInteractorTests.swift */,
+				345F8CBF215E6A2E00F2BA0A /* ListOrdersWorkerTests.swift */,
+				345F8CC0215E6A2E00F2BA0A /* ListOrdersPresenterTests.swift */,
+			);
+			path = ListOrders;
+			sourceTree = "<group>";
+		};
+		77067E11AFBEE65E3C55791D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F34A2DBAEF57963B2A23DD43 /* Pods_CleanStore.framework */,
+				5A05646EB3DE382799126D63 /* Pods_CleanStoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACE7B2B3451E446DE20464F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FF51E5026FAB72107FE4370 /* Pods-CleanStore.debug.xcconfig */,
+				961935D560A8E660C509F298 /* Pods-CleanStore.release.xcconfig */,
+				36C46AC097723F449E6EB10E /* Pods-CleanStoreTests.debug.xcconfig */,
+				570E0D890993B30ECEA9A48C /* Pods-CleanStoreTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 341A2AAA215D267B0029DDA8 /* Build configuration list for PBXNativeTarget "CleanStore" */;
 			buildPhases = (
+				02E3F56FCE054D8CA3EFE3DF /* [CP] Check Pods Manifest.lock */,
 				341A2A89215D267A0029DDA8 /* Sources */,
 				341A2A8A215D267A0029DDA8 /* Frameworks */,
 				341A2A8B215D267A0029DDA8 /* Resources */,
+				623D3394CC0CD4ABFB23CF8B /* [CP] Embed Pods Frameworks */,
+				51D9F421099B4A05E80B7F11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 341A2AAD215D267B0029DDA8 /* Build configuration list for PBXNativeTarget "CleanStoreTests" */;
 			buildPhases = (
+				751755BCAFA774AC0339E360 /* [CP] Check Pods Manifest.lock */,
 				341A2A9D215D267B0029DDA8 /* Sources */,
 				341A2A9E215D267B0029DDA8 /* Frameworks */,
 				341A2A9F215D267B0029DDA8 /* Resources */,
+				3312F9CD569D7C048811EF15 /* [CP] Embed Pods Frameworks */,
+				941C015A7D2AB851F3D1EDCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,13 +368,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02E3F56FCE054D8CA3EFE3DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3312F9CD569D7C048811EF15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Spry/Spry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51D9F421099B4A05E80B7F11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623D3394CC0CD4ABFB23CF8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Spry/Spry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanStore/Pods-CleanStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751755BCAFA774AC0339E360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleanStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		941C015A7D2AB851F3D1EDCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanStoreTests/Pods-CleanStoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		341A2A89215D267A0029DDA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DE50B1215E5CBD00E652A5 /* ListOrdersModels.swift in Sources */,
+				34DE50B3215E5CBD00E652A5 /* ListOrdersViewController.swift in Sources */,
+				345F8CCA215E760200F2BA0A /* OrdersWorker.swift in Sources */,
+				34DE50AF215E5CBD00E652A5 /* ListOrdersRouter.swift in Sources */,
+				34DE50AD215E5CBD00E652A5 /* ListOrdersWorker.swift in Sources */,
+				341A2ABF215D2E3E0029DDA8 /* CreateOrderModels.swift in Sources */,
+				345F8CD0215E7D2B00F2BA0A /* OrdersAPI.swift in Sources */,
+				341A2AC3215D2E3E0029DDA8 /* CreateOrderInteractor.swift in Sources */,
+				341A2ABB215D2E3E0029DDA8 /* CreateOrderWorker.swift in Sources */,
+				341A2AC1215D2E3E0029DDA8 /* CreateOrderViewController.swift in Sources */,
 				341A2A93215D267A0029DDA8 /* ViewController.swift in Sources */,
+				345F8CC8215E723400F2BA0A /* OrderModels.swift in Sources */,
+				345F8CCE215E7D1A00F2BA0A /* OrdersCoreDataStore.swift in Sources */,
+				341A2ABD215D2E3E0029DDA8 /* CreateOrderRouter.swift in Sources */,
+				34DE50AB215E5CBD00E652A5 /* ListOrdersPresenter.swift in Sources */,
 				341A2A91215D267A0029DDA8 /* AppDelegate.swift in Sources */,
+				341A2AB9215D2E3E0029DDA8 /* CreateOrderPresenter.swift in Sources */,
+				345F8CCC215E7D0200F2BA0A /* OrdersMemStore.swift in Sources */,
+				34DE50B5215E5CBD00E652A5 /* ListOrdersInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +504,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				341A2AA6215D267B0029DDA8 /* CleanStoreTests.swift in Sources */,
+				345F8CD9215E800500F2BA0A /* OrderWorkerTests.swift in Sources */,
+				3485C73B21627163007567D4 /* CreateOrderInteractorTests.swift in Sources */,
+				345F8CC1215E6A2E00F2BA0A /* ListOrdersViewControllerTests.swift in Sources */,
+				345F8CD1215E7F9D00F2BA0A /* ListOrdersWorkerTests.swift in Sources */,
+				3485C72F21620718007567D4 /* ListOrdersPresenterTests.swift in Sources */,
+				3485C73C21627A5F007567D4 /* CreateOrderPresenterTests.swift in Sources */,
+				345F8CC5215E6E6D00F2BA0A /* ListOrdersInteractorTests.swift in Sources */,
+				3485C73721626C3D007567D4 /* CreateOrderViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +663,7 @@
 		};
 		341A2AAB215D267B0029DDA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF51E5026FAB72107FE4370 /* Pods-CleanStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +682,7 @@
 		};
 		341A2AAC215D267B0029DDA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961935D560A8E660C509F298 /* Pods-CleanStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +701,7 @@
 		};
 		341A2AAE215D267B0029DDA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C46AC097723F449E6EB10E /* Pods-CleanStoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +723,7 @@
 		};
 		341A2AAF215D267B0029DDA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570E0D890993B30ECEA9A48C /* Pods-CleanStoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
