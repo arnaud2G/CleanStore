@@ -77,7 +77,7 @@ class ListOrdersPresenterTests: XCTestCase
         // Then
         let displayedOrders = listOrdersPresenterOutputSpy.listOrdersModelView.displayedOrders
         for displayedOrder in displayedOrders{
-            XCTAssertEqual(displayedOrder.id, "abc123", "Presenting fetched orders should properly format order ID")
+            XCTAssertEqual(displayedOrder.id, "abc1234", "Presenting fetched orders should properly format order ID")
             XCTAssertEqual(displayedOrder.date, "6/29/07", "Presenting fetched orders should properly format order date")
             XCTAssertEqual(displayedOrder.email, "amy.apple@clean-swift.com", "Presenting fetched orders should properly format email")
             XCTAssertEqual(displayedOrder.name, "Amy Apple", "Presenting fetched orders should properly format name")
